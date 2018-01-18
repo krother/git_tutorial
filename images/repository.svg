@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="repository.svg"
+   inkscape:export-filename="/home/krother/Desktop/courses/git_tutorial/images/repository.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path5360"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path5342"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path5336"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient5246"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#d5e9bf;stop-opacity:1;"
+         offset="0"
+         id="stop5248" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5246"
+       id="linearGradient5250"
+       x1="101.02541"
+       y1="648.05602"
+       x2="226.88548"
+       y2="648.05602"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="443.27454"
+     inkscape:cy="332.90267"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-nodes="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect6193"
+       width="1054.2858"
+       height="372.85715"
+       x="0"
+       y="467.48474"
+       ry="7.3219814"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+       inkscape:export-xdpi="90.114952"
+       inkscape:export-ydpi="90.114952" />
+    <g
+       id="g2989"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+       inkscape:export-xdpi="90.114952"
+       inkscape:export-ydpi="90.114952">
+      <rect
+         ry="9.2857313"
+         y="587.36218"
+         x="102.02541"
+         height="38.57143"
+         width="52.142857"
+         id="rect2987"
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         y="604.86456"
+         x="102.02541"
+         height="86.382919"
+         width="123.86007"
+         id="rect2985"
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2993"
+       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-1.4285713,316.83913)"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+       inkscape:export-xdpi="90.114952"
+       inkscape:export-ydpi="90.114952"><flowRegion
+         id="flowRegion2995"
+         style="font-family:sans-serif"><rect
+           id="rect2997"
+           width="181.42859"
+           height="68.571381"
+           x="102.85714"
+           y="399.80878"
+           style="font-family:sans-serif" /></flowRegion><flowPara
+         id="flowPara3001"
+         style="font-size:22px;line-height:1.25;font-family:sans-serif">lokale</flowPara><flowPara
+         style="font-size:22px;line-height:1.25;font-family:sans-serif"
+         id="flowPara314">Arbeitskopie</flowPara></flowRoot>    <flowRoot
+       transform="translate(334.28571,316.83913)"
+       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3005"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+       inkscape:export-xdpi="90.114952"
+       inkscape:export-ydpi="90.114952"><flowRegion
+         id="flowRegion3007"
+         style="font-family:sans-serif"><rect
+           y="399.80878"
+           x="102.85714"
+           height="68.571388"
+           width="175.71431"
+           id="rect3009"
+           style="font-family:sans-serif" /></flowRegion><flowPara
+         style="font-size:22px;line-height:1.25;font-family:sans-serif"
+         id="flowPara3011">Changesets</flowPara><flowPara
+         style="font-size:22px;line-height:1.25;font-family:sans-serif"
+         id="flowPara3021">(staging area)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013"
+       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(700,316.83913)"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+       inkscape:export-xdpi="90.114952"
+       inkscape:export-ydpi="90.114952"><flowRegion
+         id="flowRegion3015"
+         style="font-family:sans-serif"><rect
+           id="rect3017"
+           width="127.14288"
+           height="98.571381"
+           x="102.85714"
+           y="399.80878"
+           style="font-family:sans-serif" /></flowRegion><flowPara
+         id="flowPara3019"
+         style="font-size:22px;line-height:1.25;font-family:sans-serif">Server</flowPara><flowPara
+         style="font-size:22px;line-height:1.25;font-family:sans-serif"
+         id="flowPara312">(GitHub)</flowPara></flowRoot>    <g
+       id="g3033"
+       transform="translate(0,10.181732)"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+       inkscape:export-xdpi="90.114952"
+       inkscape:export-ydpi="90.114952">
+      <path
+         inkscape:connector-curvature="0"
+         id="rect3027"
+         d="m 785.70982,577.37016 0,84.41259 c 0,10.65595 25.11275,19.283 56.08161,19.283 30.96886,0 56.08162,-8.62705 56.08162,-19.283 l 0,-84.41259 -112.16323,0 z"
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <path
+         transform="matrix(0.8441259,0,0,0.8441259,157.44274,354.44178)"
+         d="m 877.14287,264.09448 a 66.428574,22.857143 0 0 1 -66.42858,22.85715 66.428574,22.857143 0 0 1 -66.42857,-22.85715 66.428574,22.857143 0 0 1 66.42857,-22.85714 66.428574,22.857143 0 0 1 66.42858,22.85714 z"
+         sodipodi:ry="22.857143"
+         sodipodi:rx="66.428574"
+         sodipodi:cy="264.09448"
+         sodipodi:cx="810.71429"
+         id="path3023"
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.36931491;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       inkscape:export-ydpi="90.114952"
+       inkscape:export-xdpi="90.114952"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 750.44034,607.56884 H 255.55991"
+       id="path77"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g3038"
+       transform="translate(338.91799,0)"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+       inkscape:export-xdpi="90.114952"
+       inkscape:export-ydpi="90.114952">
+      <rect
+         style="fill:#d5e4c4;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:6,2;stroke-dashoffset:0"
+         id="rect3040"
+         width="52.142857"
+         height="38.57143"
+         x="102.02541"
+         y="587.36218"
+         ry="9.2857313" />
+      <rect
+         style="fill:url(#linearGradient5250);fill-opacity:1;stroke:#000000;stroke-width:2;opacity:1;stroke-miterlimit:4;stroke-dasharray:4,4;stroke-dashoffset:0"
+         id="rect3042"
+         width="123.86007"
+         height="86.382919"
+         x="102.02541"
+         y="604.86456" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5315"
+       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(362.85715,226.83913)"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+       inkscape:export-xdpi="90.114952"
+       inkscape:export-ydpi="90.114952"><flowRegion
+         id="flowRegion5317"
+         style="font-family:sans-serif"><rect
+           id="rect5319"
+           width="82.857162"
+           height="55.714237"
+           x="102.85714"
+           y="399.80878"
+           style="font-family:sans-serif" /></flowRegion><flowPara
+         id="flowPara5323"
+         style="font-weight:bold;font-size:36px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Bold'">.git</flowPara></flowRoot>    <g
+       id="g89">
+      <path
+         inkscape:export-ydpi="90.114952"
+         inkscape:export-xdpi="90.114952"
+         inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+         inkscape:connector-curvature="0"
+         id="path5327"
+         d="M 407.5832,655.93361 H 256.15463"
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)" />
+      <path
+         inkscape:export-ydpi="90.114952"
+         inkscape:export-xdpi="90.114952"
+         inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+         d="M 252.85714,681.6479 H 404.28571"
+         id="path6147"
+         inkscape:connector-curvature="0" />
+      <flowRoot
+         inkscape:export-ydpi="90.114952"
+         inkscape:export-xdpi="90.114952"
+         inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+         xml:space="preserve"
+         id="flowRoot6149"
+         style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(182.12183,225.21621)"><flowRegion
+           style="font-family:sans-serif"
+           id="flowRegion6151"><rect
+             style="font-family:sans-serif"
+             id="rect6153"
+             width="178.57146"
+             height="38.571388"
+             x="102.85714"
+             y="399.80878" /></flowRegion><flowPara
+           id="flowPara6155"
+           style="font-style:italic;font-size:22px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Italic'">git checkout</flowPara></flowRoot>      <flowRoot
+         inkscape:export-ydpi="90.114952"
+         inkscape:export-xdpi="90.114952"
+         inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+         transform="translate(158.88832,286.36994)"
+         style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot6157"
+         xml:space="preserve"><flowRegion
+           style="font-family:sans-serif"
+           id="flowRegion6159"><rect
+             style="font-family:sans-serif"
+             y="399.80878"
+             x="102.85714"
+             height="38.571388"
+             width="178.57146"
+             id="rect6161" /></flowRegion><flowPara
+           style="font-style:italic;font-size:22px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Italic'"
+           id="flowPara6163">git commit</flowPara></flowRoot>    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 595.71428,653.06776 H 747.14285"
+       id="path6167"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+       inkscape:export-xdpi="90.114952"
+       inkscape:export-ydpi="90.114952" />
+    <flowRoot
+       transform="translate(518.29659,258.79995)"
+       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot6177"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+       inkscape:export-xdpi="90.114952"
+       inkscape:export-ydpi="90.114952"><flowRegion
+         id="flowRegion6179"
+         style="font-family:sans-serif"><rect
+           y="399.80878"
+           x="102.85714"
+           height="38.571388"
+           width="178.57146"
+           id="rect6181"
+           style="font-family:sans-serif" /></flowRegion><flowPara
+         style="font-style:italic;font-size:22px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Italic'"
+         id="flowPara6183">git push</flowPara></flowRoot>    <g
+       id="g99"
+       transform="translate(336.3808,11.111678)">
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot302"
+         style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(170,158.2677)"
+         inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+         inkscape:export-xdpi="90.114952"
+         inkscape:export-ydpi="90.114952"><flowRegion
+           id="flowRegion298"
+           style="font-family:sans-serif"><rect
+             id="rect296"
+             width="178.57146"
+             height="38.571388"
+             x="102.85714"
+             y="399.80878"
+             style="font-family:sans-serif" /></flowRegion><flowPara
+           id="flowPara300"
+           style="font-style:italic;font-size:22px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Italic'">git pull</flowPara></flowRoot>      <flowRoot
+         transform="translate(170,126.83913)"
+         style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot310"
+         xml:space="preserve"
+         inkscape:transform-center-x="7.1428571"
+         inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
+         inkscape:export-xdpi="90.114952"
+         inkscape:export-ydpi="90.114952"><flowRegion
+           id="flowRegion306"
+           style="font-family:sans-serif"><rect
+             y="399.80878"
+             x="102.85714"
+             height="36.551075"
+             width="345.24661"
+             id="rect304"
+             style="font-family:sans-serif" /></flowRegion><flowPara
+           style="font-style:italic;font-size:22px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Italic'"
+           id="flowPara308">git clone</flowPara></flowRoot>    </g>
+  </g>
+</svg>

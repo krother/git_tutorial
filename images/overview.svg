@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1122.5197"
+   height="793.70081"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="overview.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path5360"
+         style="fill-rule:evenodd;stroke-width:0.40000001;stroke-linejoin:round"
+         d="M -5.5798962,-2.5815905 1.4126653,-0.01024849 -5.5798966,2.561093 c 1.117119,-1.518119 1.1106821,-3.5951692 4e-7,-5.1426835 z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path5342"
+         d="M -4.2666667,0 -6.4,2.1333333 1.0666667,0 -6.4,-2.1333333 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path5336"
+         d="M -10.666667,0 -14.933333,4.2666667 0,0 -14.933333,-4.2666667 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.85333335pt"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       id="linearGradient5246"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#d5e9bf;stop-opacity:1;"
+         offset="0"
+         id="stop5248" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="114.09026"
+     inkscape:cy="150.5613"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-nodes="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-328.81888)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       id="rect4055"
+       width="1105.511"
+       height="775.79712"
+       x="8.6199694"
+       y="338.10254"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662"><flowRegion
+         id="flowRegion3015"
+         style="font-family:sans-serif;stroke-width:1.06666672"><rect
+           id="rect3017"
+           width="190.47623"
+           height="41.142815"
+           x="460.23535"
+           y="797.94824"
+           style="font-family:sans-serif;stroke-width:1.13777781" /></flowRegion><flowPara
+         id="flowPara3019"
+         style="font-size:23.46666718px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672">Repository</flowPara></flowRoot>    <g
+       id="g3033"
+       transform="translate(-371.76466,56.5748)"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662">
+      <path
+         inkscape:connector-curvature="0"
+         id="rect3027"
+         d="m 838.09047,615.8615 v 90.0401 c 0,11.36635 26.78694,20.56853 59.82039,20.56853 33.03345,0 59.82039,-9.20218 59.82039,-20.56853 v -90.0401 z"
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <ellipse
+         id="path3023"
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         cx="897.90686"
+         cy="615.86218"
+         rx="59.812351"
+         ry="20.580593" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3042"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion3044"
+         style="font-family:sans-serif;stroke-width:1.06666672px"><rect
+           id="rect3046"
+           width="889.90472"
+           height="466.28571"
+           x="-76.190475"
+           y="133.89127"
+           style="font-family:sans-serif;stroke-width:1.13777781px" /></flowRegion><flowPara
+         id="flowPara3048"
+         style="font-size:42.66666794px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672px"> </flowPara></flowRoot>    <g
+       id="g3878"
+       transform="translate(-9.9278113,21.333333)"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662">
+      <g
+         id="g3865"
+         transform="translate(15.238095)">
+        <path
+           style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 423.61904,938.08684 -24.00733,79.79846 h 66.674 l -24.13444,-80.22095"
+           id="path3859"
+           inkscape:connector-curvature="0" />
+        <circle
+           style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333321"
+           id="path3071"
+           cx="433.5238"
+           cy="931.28156"
+           r="22.322187" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:4.26666689;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 464.76191,976.23395 h 32 l 8.61245,-32.14212"
+           id="path3861"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         transform="matrix(-1,0,0,1,1056.9099,0)"
+         id="g3870">
+        <path
+           inkscape:connector-curvature="0"
+           id="path3872"
+           d="m 423.61904,938.08684 -24.00733,79.79846 h 66.674 l -24.13444,-80.22095"
+           style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <circle
+           id="path3874"
+           style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333321"
+           cx="433.5238"
+           cy="931.28156"
+           r="22.322187" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3876"
+           d="m 464.76191,976.23395 h 32 l 8.61245,-32.14212"
+           style="fill:none;stroke:#000000;stroke-width:4.26666689;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+    </g>
+    <flowRoot
+       inkscape:export-ydpi="89.961662"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       id="flowRoot3888"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3890"
+         style="font-family:sans-serif;stroke-width:1.06666672"><rect
+           y="1053.9482"
+           x="425.18771"
+           height="31.999949"
+           width="228.57146"
+           id="rect3892"
+           style="font-family:sans-serif;stroke-width:1.13777781" /></flowRegion><flowPara
+         style="font-size:23.46666718px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
+         id="flowPara3894">Zusammenarbeit</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:4.26666689;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12.8, 4.26666667;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 526.1462,848.23395 v 89.90477"
+       id="path3898"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662" />
+    <g
+       id="g3938"
+       transform="translate(-13.669429,16.761905)"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3919"
+         d="m 190.7168,864.99811 -1.07749,-42.02234 35.55736,-40.94486"
+         style="fill:none;stroke:#000000;stroke-width:4.26666689;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3921"
+         d="m 155.15943,743.24106 v 40.94485 l 34.47988,38.78986"
+         style="fill:none;stroke:#000000;stroke-width:4.26666689;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <circle
+         id="path3902"
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         cx="190.47618"
+         cy="861.22736"
+         r="10.666667" />
+      <circle
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path3904"
+         cx="190.47618"
+         cy="822.07837"
+         r="10.666667" />
+      <g
+         transform="translate(0.53874827,49.564818)"
+         id="g3914">
+        <circle
+           style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3906"
+           cx="224.95605"
+           cy="733.3645"
+           r="10.666667" />
+        <circle
+           id="path3910"
+           style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           cx="154.91882"
+           cy="733.3645"
+           r="10.666667" />
+        <circle
+           style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3912"
+           cx="154.91882"
+           cy="694.21545"
+           r="10.666667" />
+      </g>
+    </g>
+    <flowRoot
+       inkscape:export-ydpi="89.961662"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       id="flowRoot3924"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3926"
+         style="font-family:sans-serif;stroke-width:1.06666672"><rect
+           y="901.57275"
+           x="124.39459"
+           height="41.142815"
+           width="190.47623"
+           id="rect3928"
+           style="font-family:sans-serif;stroke-width:1.13777781" /></flowRegion><flowPara
+         style="font-size:23.46666718px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
+         id="flowPara3930">Branches</flowPara></flowRoot>    <path
+       inkscape:connector-curvature="0"
+       id="path3932"
+       d="m 446.4115,740.66922 -176.58793,76.6368"
+       style="fill:none;stroke:#000000;stroke-width:4.26666689;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12.8, 4.26666667;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:4.26666689;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12.8, 4.26666667;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 446.4115,701.49649 269.82357,624.85969"
+       id="path3936"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3948"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662"><flowRegion
+         id="flowRegion3950"
+         style="font-family:sans-serif;stroke-width:1.06666672"><rect
+           id="rect3952"
+           width="190.47623"
+           height="41.142815"
+           x="95.442207"
+           y="653.19177"
+           style="font-family:sans-serif;stroke-width:1.13777781" /></flowRegion><flowPara
+         id="flowPara3954"
+         style="font-size:23.46666718px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672">Versionierung</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3956"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662"><flowRegion
+         id="flowRegion3958"
+         style="font-family:sans-serif;stroke-width:1.06666672"><rect
+           id="rect3960"
+           width="190.47623"
+           height="41.142815"
+           x="864.2041"
+           y="901.57275"
+           style="font-family:sans-serif;stroke-width:1.13777781" /></flowRegion><flowPara
+         id="flowPara3962"
+         style="font-size:23.46666718px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672">Tools</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:4.26666689;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12.8, 4.26666667;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 606.58547,740.66922 176.58793,76.6368"
+       id="path3964"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3966"
+       d="M 606.58547,701.49649 783.1734,624.85969"
+       style="fill:none;stroke:#000000;stroke-width:4.26666689;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12.8, 4.26666667;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662" />
+    <flowRoot
+       inkscape:export-ydpi="89.961662"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       id="flowRoot3968"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3970"
+         style="font-family:sans-serif;stroke-width:1.06666672"><rect
+           y="653.19177"
+           x="817.72791"
+           height="41.142815"
+           width="190.47623"
+           id="rect3972"
+           style="font-family:sans-serif;stroke-width:1.13777781" /></flowRegion><flowPara
+         style="font-size:23.46666718px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672"
+         id="flowPara3974">Kommandos</flowPara></flowRoot>    <g
+       id="g3981"
+       transform="rotate(13.15709,-460.98926,649.82827)"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662">
+      <path
+         sodipodi:nodetypes="cczccc"
+         inkscape:connector-curvature="0"
+         id="rect3976"
+         d="M 88.225607,431.22634 H 194.35519 c 0,0 32.86422,20.08325 32.86363,25.13865 -6e-4,5.0554 -32.86363,25.088 -32.86363,25.088 H 88.225607 Z"
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0" />
+      <circle
+         id="path3979"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         cx="213.34422"
+         cy="456.62711"
+         r="3.2324882" />
+    </g>
+    <flowRoot
+       inkscape:export-ydpi="89.961662"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       transform="matrix(1.0380851,0.24526935,-0.24526935,1.0380851,139.56841,135.17954)"
+       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3985"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3987"
+         style="font-family:sans-serif"><rect
+           y="399.80878"
+           x="102.85714"
+           height="39.084118"
+           width="54.632927"
+           id="rect3989"
+           style="font-family:sans-serif" /></flowRegion><flowPara
+         style="font-weight:bold;font-size:28px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Bold'"
+         id="flowPara3991">1.0</flowPara></flowRoot>    <rect
+       style="fill:#d5e9bf;fill-opacity:1;stroke:#000000;stroke-width:2.13333344;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3993"
+       width="176.15172"
+       height="71.619049"
+       x="819.85443"
+       y="570.90057"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3995"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662"><flowRegion
+         id="flowRegion3997"
+         style="font-family:sans-serif;stroke-width:1.06666672"><rect
+           id="rect3999"
+           width="167.61908"
+           height="53.333279"
+           x="832.966"
+           y="587.66797"
+           style="font-family:sans-serif;stroke-width:1.13777781" /></flowRegion><flowPara
+         id="flowPara4001"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.13333511px;line-height:1.25;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch Bold';stroke-width:1.06666672">&gt; git..</flowPara></flowRoot>    <g
+       transform="matrix(0.63471644,0.3816059,-0.3816059,0.63471644,975.18866,513.76961)"
+       id="g4003"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662">
+      <path
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:3.19544005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 74.692823,417.63094 c -15.25676,2.49513 -27.399377,12.44376 -33.419578,25.49996 l 41.045376,-6.71263 17.146536,16.3702 1.748673,10.69249 -10.820707,22.31002 -41.094649,6.72069 c 9.866029,10.49004 24.570416,16.01616 39.851095,13.51712 16.369111,-2.67704 29.191331,-13.91306 34.667811,-28.38546 L 232.4669,459.87458 c 11.21576,-1.83424 18.73642,-12.88667 16.80362,-24.70503 -1.93279,-11.81838 -12.58253,-19.89918 -23.7983,-18.06494 L 117.61108,434.74443 C 107.90309,421.96981 91.630913,414.86086 74.692823,417.63094 Z"
+         id="rect4009"
+         inkscape:connector-curvature="0" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4025"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662"><flowRegion
+         id="flowRegion4027"
+         style="font-family:sans-serif;stroke-width:1.06666672"><rect
+           id="rect4029"
+           width="228.57146"
+           height="31.999949"
+           x="455.3576"
+           y="502.27026"
+           style="font-family:sans-serif;stroke-width:1.13777781" /></flowRegion><flowPara
+         id="flowPara4031"
+         style="font-size:23.46666718px;line-height:1.25;font-family:sans-serif;stroke-width:1.06666672">Änderungen</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4033"
+       d="m 526.1462,540.07008 v 89.90477"
+       style="fill:none;stroke:#000000;stroke-width:4.26666689;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12.8, 4.26666667;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662" />
+    <g
+       id="g4039"
+       transform="matrix(0.74813342,0,0,0.74813342,107.31792,122.0234)"
+       inkscape:export-filename="/home/krother/Desktop/hg_training/overview.png"
+       inkscape:export-xdpi="89.961662"
+       inkscape:export-ydpi="89.961662">
+      <rect
+         y="404.90729"
+         x="459.01331"
+         height="75.424721"
+         width="75.424721"
+         id="rect4035"
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.35795426;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <circle
+         id="path4037"
+         style="fill:#b4d78d;fill-opacity:1;stroke:#000000;stroke-width:2.35795426;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         cx="604.47528"
+         cy="442.61966"
+         r="44.177341" />
+      <g
+         id="g4050"
+         transform="translate(3.1190826,5.3592533)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4043"
+           d="M 441.80041,385.45422 545.41277,489.06658"
+           style="fill:none;stroke:#000000;stroke-width:5.70308256;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <g
+           id="g4047">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4045"
+             d="M 441.80042,489.06658 545.41277,385.45422"
+             style="fill:none;stroke:#000000;stroke-width:5.70308256;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
