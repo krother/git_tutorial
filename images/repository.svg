@@ -87,7 +87,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.9899495"
-     inkscape:cx="443.27454"
+     inkscape:cx="414.00731"
      inkscape:cy="332.90267"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -183,9 +183,9 @@
            id="rect3009"
            style="font-family:sans-serif" /></flowRegion><flowPara
          style="font-size:22px;line-height:1.25;font-family:sans-serif"
-         id="flowPara3011">Changesets</flowPara><flowPara
+         id="flowPara3021">lokales</flowPara><flowPara
          style="font-size:22px;line-height:1.25;font-family:sans-serif"
-         id="flowPara3021">(staging area)</flowPara></flowRoot>    <flowRoot
+         id="flowPara73">Repository</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3013"
        style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -231,10 +231,10 @@
        inkscape:export-xdpi="90.114952"
        inkscape:export-filename="/home/krother/Desktop/hg_training/repository.png"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="M 750.44034,607.56884 H 255.55991"
+       d="m 750.44034,594.43686 c -67.73181,-73.63321 -192.44726,-50.60961 -241.32346,0 -54.65698,-47.72441 -137.02274,-80.97971 -253.55697,0"
        id="path77"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="ccc" />
     <g
        id="g3038"
        transform="translate(338.91799,0)"
@@ -275,7 +275,9 @@
            style="font-family:sans-serif" /></flowRegion><flowPara
          id="flowPara5323"
          style="font-weight:bold;font-size:36px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Bold'">.git</flowPara></flowRoot>    <g
-       id="g89">
+       id="g89"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          inkscape:export-ydpi="90.114952"
          inkscape:export-xdpi="90.114952"
@@ -354,7 +356,9 @@
          style="font-style:italic;font-size:22px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Italic'"
          id="flowPara6183">git push</flowPara></flowRoot>    <g
        id="g99"
-       transform="translate(336.3808,11.111678)">
+       transform="translate(194.95944,-37.375644)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <flowRoot
          xml:space="preserve"
          id="flowRoot302"
