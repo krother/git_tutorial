@@ -130,3 +130,4 @@ Für kleinere Projekte (Doktorarbeiten und kleiner) sind alle drei Systeme beste
 * [Git Dokumentation](https://book.git-scm.com/doc)
 * [Try GitHub - online-Tutorial](https://try.github.io/)
 * [GitHub - öffentliches Repository](https://github.com/)
+* [Learn Git auf Codecademy](https://www.codecademy.com/learn/learn-git)
