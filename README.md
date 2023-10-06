@@ -8,7 +8,7 @@ Lies die Geschichte:
 
 *Ada schreibt das Programm `hello.py`.*
 *Etwas später ändert sie das Programm und speichert die Änderungen in der Datei `hello2.py`.*
-*Sie schickt die Datei als e-Mail an Bon, der den Code ebenfalls ändert. Er schickt die Datei `hello_new_version.py` zurück an Ada.*
+*Sie schickt die Datei als e-Mail an Bob, der den Code ebenfalls ändert. Er schickt die Datei `hello_new_version.py` zurück an Ada.*
 *In der Zwischenzeit hat Ada ihre Version des Programms verbessert und als `hello3.py` gespeichert.*
 *Sie geht ihren Code Zeile für Zeile durch, um Bobs Änderungen einzubauen und erhält die Datei `hello3_with_bob.py`.*
 *Später findet Bob heraus, dass die ursprüngliche Datei `hello2.py` einen Fehler enthielt.*
@@ -37,13 +37,16 @@ Versionskontrolle ist unumgänglich, um professionell Programme zu entwickeln.
 
 Git ist ein Programm, das beim Programmieren die **Zusammenarbeit** erleichtert. **Änderungen** am Code werden in einem **Repository** gespeichert. mit den **Git Kommandos** können beliebige **Versionen** des Codes inspiziert und abgerufen werden. Git ermöglicht die Entwicklung in mehreren **Branches** und wird von zahlreichen **Tools** wie GitHub unterstützt.
 
+## Arbeitsbereiche
+
 ![](images/repository.png)
 
 Git kennt mehrere Orte, an denen Dateien gespeichert sein können:
 
-- die **lokalen Arbeitskopie** sind normale Verzeichnisse, in denen Du Code editierst
-- im **lokalen Repository** bewahrt Git die gesamte Historie aller Dateien im Projekt auf. Es ist etwas versteckt aber auf deinem Computer.
-- das **entfernte (remote) Repository** befindet sich auf einem anderen Computer im Internet.
+- in der **lokalen Arbeitskopie** sind Verzeichnisse und Dateien, die du normal editieren kannst
+- im **Bühnenbereich** (staging area) befinden sich für die Historie vorgemerkte Änderungen 
+- im **lokalen Repository** bewahrt Git die gesamte Historie aller Dateien im Projekt auf. Es ist etwas versteckt aber auf deinem Computer
+- das **entfernte Repository** (remote) befindet sich auf einem anderen Computer im Internet
 
 Viele Git Kommandos bewegen Änderungen zwischen diesen Orten hin und her.
 
