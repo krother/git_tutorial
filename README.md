@@ -1,129 +1,165 @@
 # Versionskontrolle mit Git
 
-Dies ist ein kurzes Tutorial in die Versionskontrolle mit dem Programm `git`.
+Dies ist ein kurzes Tutorial in die Versionskontrolle mit [Git](https://git-scm.com/).
+
+## Warum brauchen wir Versionskontrolle?
+
+Lies die Geschichte:
+
+    - Ada schreibt das Programm `hello.py`.
+    - Etwas später ändert sie das Programm und speichert die Änderungen in der Datei `hello2.py`.
+    - Sie schickt die Datei als e-Mail an Bon, der den Code ebenfalls ändert. Er schickt die Datei `hello_new_version.py` zurück an Ada.
+    - In der Zwischenzeit hat Ada ihre Version des Programms verbessert und als `hello3.py` gespeichert.
+    - Sie geht ihren Code Zeile für Zeile durch, um Bobs Änderungen einzubauen und erhält die Datei `hello3_with_bob.py`.
+    - Später findet Bob heraus, dass die ursprüngliche Datei `hello2.py` einen Fehler enthielt.
+    - Ada und Bob setzen sich zusammen und versuchen herauszufinden, was sie reparieren müssen.
+
+**Was für Schwierigkeiten könnten Ada und Bob mit ihrer Vorgehensweise bekommen?**
+
 
 ## Was ist Versionskontrolle?
 
 **Versionskontrolle ist eine Kombination aus Logbuch und Zeitmaschine für Programmcode.**
 
-Ein System zur Versionskontrolle protokolliert automatisch *Änderungen* in Deinem Programmcode und anderen Dateien im Projekt. Du kannst dadurch:
+Ein System zur Versionskontrolle protokolliert automatisch *Änderungen* in Deinem Programmcode und anderen Dateien im Projekt. du kannst dadurch:
 
 * Ideen ausprobieren, ohne Das Programm kaputt zu machen.
+* im Team parallel an einem Projekt arbeiten.
 * Zu früheren Versionen und wieder zurück springen.
-* Das gleiche Programm auf mehreren Computern editieren.
-* Mit mehreren Leuten parallel an einem Projekt arbeiten.
-* Dein Projekt im Netz veröffentlichen.
+* Dein Projekt über [GitHub](http://www.github.com) veröffentlichen.
 
-Versionskontrolle ist der erste Schritt, um professionell Programme zu entwickeln. Sobald Du mit Versionskontrolle anfängst, ist es schwer, damit wieder aufzuhören.
+Versionskontrolle ist unumgänglich, um professionell Programme zu entwickeln.
+
+## Überblick
 
 ![](images/overview.png)
 
-## Voraussetzungen
-
-Du solltest in der Lage sein, Dich in einer Kommandozeile zu bewegen.
-
-## Installation
-
-Git ist ein Programm für die **Kommandozeile**.
-
-Unter Windows findest Du die Installationsdateien unter [https://book.git-scm.com/downloads](https://book.git-scm.com/downloads).
-
-Unter Ubuntu Linux ist `git` sehr leicht zu installieren:
-
-    sudo apt install git
-
-Es gibt mehrere [graphische Oberflächen](https://book.git-scm.com/downloads/guis) für `git`. Diese sind aus meiner Sicht aber nicht unbedingt notwendig.
-
-## Aufgabe: Veröffentliche Dein Programm auf GitHub
-
-Bei dieser Aufgabe verwendest Du `git`, um ein Programm veröffentlichen. Genauer, tauschen der **GitHub**-Server und Deine lokale Arbeitskopie Änderungen miteinander aus. Dazu dienen die `git`-Befehle:
+Git ist ein Programm, das beim Programmieren die **Zusammenarbeit** erleichtert. **Änderungen** am Code werden in einem **Repository** gespeichert. mit den **Git Kommandos** können beliebige **Versionen** des Codes inspiziert und abgerufen werden. Git ermöglicht die Entwicklung in mehreren **Branches** und wird von zahlreichen **Tools** wie GitHub unterstützt.
 
 ![](images/repository.png)
 
-### 1. Erstelle ein GitHub-Projekt
+Git kennt mehrere Orte, an denen Dateien gespeichert sein können:
 
-* Lege Dir ein Konto auf [**GitHub**](https://github.com/) an.
-* Erstelle dort ein neues Repository.
-* Gib dem Repository einen Namen und eine Beschreibung.
-* Erstelle auch eine `README.md`-Datei (*optional*).
-* Wähle die MIT-Lizenz aus (*optional*).
+- die **lokalen Arbeitskopie** sind normale Verzeichnisse, in denen Du Code editierst
+- im **lokalen Repository** bewahrt Git die gesamte Historie aller Dateien im Projekt auf. Es ist etwas versteckt aber auf deinem Computer.
+- das **entfernte (remote) Repository** befindet sich auf einem anderen Computer im Internet.
 
-### 2. Erstelle eine lokale Arbeitskopie
+Viele Git Kommandos bewegen Änderungen zwischen diesen Orten hin und her.
 
-* Gehe auf die Startseite Deines GitHub-Projekts.
-* Finde den Knopf **Clone or download** (grün).
-* Drücke darauf. Kopiere die URL des Projekts.
-* Öffne ein Terminal (Eingabeaufforderung; `cmd` im Startmenü eingeben)
-* Wechsle in das Verzeichnis, an dem das Projekt liegen soll (z.B. Desktop)
-* Gib ein `git clone URL`, wobei Du hier die kopierte URL einfügst.
-* Es sollte ein neues Verzeichnis mit Deinem Projekt entstehen.
 
-### 3. Dateien hinzufügen
+## Übung: Veröffentliche ein Programm auf GitHub
 
-* Kopiere die Dateien für Dein Projekts in das neue Verzeichnis.
-* Gib `git status` ein.
-* Füge eine Datei mit `git add DATEINAME` hinzu.
-* Gib `git status` ein.
-* Speichere die Änderungen mit `git commit -m "Logbucheintrag"`
-* Gib `git status` ein.
-* Du kannst mit `git add *.py` oder `git add *.cpp` auch mehrere Dateien hinzufügen. **Füge zunächst nur den Quelltext und wichtige Medien hinzu.**
+In dieser Übung verwendest du Git, um ein Programm veröffentlichen.
+Git ist ein Programm für die **Kommandozeile**.
+Du solltest also in der Lage sein, Dich ein wenig in einem Kommandozeilenterminal zurechtzufinden.
+
+### Aufgabe 1: Installiere Git
+
+Folge der [Installationsanleitung für dein Betriebssystem](https://www.python4data.science/de/latest/productive/git/install-config.html), um Git auf deinem Computer zu installieren.
+
+Am Ende solltest Du in der Lage sein, in der Kommandozeile folgenden Befehl einzugeben:
+
+    git --help
+
+Du solltest etwa eine Bildschirmseite Anleitungstext erhalten, die mit den Worten `usage: git` beginnt.
+
+### Aufgabe 2: Erstelle ein GitHub-Projekt
+
+* Lege ein Konto auf [GitHub](https://github.com/) an
+* Erstelle dort ein neues Repository
+* Gib dem Repository einen Namen und eine kurze Beschreibung
+* Erstelle eine `README.md`-Datei (*optional*)
+* Wähle die MIT-Lizenz aus (*optional*)
+
+### Aufgabe 3: Erstelle eine lokale Arbeitskopie
+
+* Gehe auf die Startseite Deines GitHub-Projekts
+* Finde den grünen Knopf mit der Aufschrift **<> Code** (grün)
+* Drücke darauf und kopiere die **HTTPS URL** des Projekts
+* Öffne ein Kommandozeilenterminal
+* Wechsle mit `cd` in das Verzeichnis, an dem das Projekt liegen soll (z.B. Desktop)
+* Gib ein `git clone URL` und füge statt URL die kopierte Adresse ein
+
+Es sollte ein neues Verzeichnis mit dem Namen deines Projekts entstehen.
+
+### Aufgabe 4: Dateien hinzufügen
+
+* Erstelle eine Textdatei `hello.py` in das neue Projektverzeichnis
+* Schreibe den Befehl `print("hello world")` in die Datei und speichere sie ab
+* Gib `git status` ein
+* Stelle die Datei mit `git add hello py` unter Versionskontrolle
+* Gib `git status` ein
+* Speichere die Änderungen mit `git commit -m "hello world Programm geschrieben"` in das lokale Repository
+* Gib `git status` ein
 
 #### Achtung:
 
-Falls Du bei `git commit` das `-m` vergisst und in einem komischen Editor landest, kannst Du diesen mit `ESCAPE` und `:q!` wieder verlassen.
+Falls du bei `git commit` das `-m` vergisst und in einem komischen Editor landest, kannst Du diesen mit `ESCAPE` und `:q!` wieder verlassen.
 
-### 4. Dateien ignorieren
+### Aufgabe 5: Änderungen veröffentlichen
 
-Einige Dateien haben im Repository nichts zu suchen: *Verzeichnisse wie `Debug/`, `__pycache__`, `.exe`-Dateien, Layout-Dateien* und viele mehr. Hier weist Du `git` an, diese zu ignorieren.
+Nun kannst du alle Änderungen auf GitHub mit `git push` veröffentlichen.
+
+Beim ersten Mal wünscht sich `git`, dass du Name und E-Mail konfigurierst.
+Gib die angezeigten `git config ..`-Befehle ein oder folge den [Anweisungen direkt unter der Installationsanleitung](https://www.python4data.science/de/latest/productive/git/install-config.html).
+Versuche `git push` dann erneut.
+
+Aktualisiere die Webseite des Projekts im Browser.
+Du solltest dort die Datei `hello.py` sehen.
+
+### Aufgabe 6: Dateien ignorieren
+
+Viele Dateien haben in einem öffentlichen Repository nichts zu suchen: *persönliche Daten, Passwörter, aber auch automatisch generierte Dateien wie `__pycache__` und `.jupyter-checkpoints/`.
+
+Wenn du eine Datei namens `hello.pyc` hinzufügst, wird diese von `git status` angezeigt.
+Hier weist Du `git` an, diese zu ignorieren.
 
 * Suche Dir auf [https://github.com/github/gitignore](https://github.com/github/gitignore) eine passende Datei für Deine Programmiersprache.
 * Speichere den Inhalt im Projektverzeichnis in einer Datei namens `.gitignore`.
 * Füge die Änderungen mit `git add` und `git commit` wie oben hinzu.
 * In die Datei `.gitignore` kannst Du auch von Hand Namen Dateien und Verzeichnissen eintraegen (ein Dateiname pro Zeile).
 
+Nun sollte `git status` nichts mehr anzeigen.
 
-### 5. Änderungen veröffentlichen
+### Aufgabe 7: Datenschutz
 
-Nun kannst Du alle Änderungen veröffentlichen.
+* Prüfe, ob sich im Projekt urheberrechtlich geschütztes Material oder persönliche Daten befinden
+* Ergänze eventuelle Lizenzbestimmungen oder Namensnennungen in der README.md-Datei
+* Mit `git rm DATEINAME` und `git commit` kannst Du Dateien ohne Nutzungsrechte löschen.
 
-* Prüfe, ob sich im Projekt urheberrechtlich geschütztes Material befindet.
-* Ergänze eventuelle Lizenzbestimmungen oder Namensnennungen in der README-Datei.
-* Mit `git rm DATEINAME` kannst Du Dateien ohne Nutzungsrechte löschen.
-* Gib in der Kommandozeile `git push` ein.
-* Beim ersten Mal wünscht sich `git`, dass Du Name und E-Mail angibst. Dazu werden zwei Befehle mit `git config ..` angezeigt. Kopiere diese und passe sie an.
-* Versuche `git push` erneut.
-* Aktualisiere die Webseite des Projekts. Du solltest dort die neuen Dateien sehen.
 
-### 6. Zeitreisen
+### Aufgabe 8: Zeitreise
 
 * Zeige mit `git log` die Geschichte des Projekts an.
-* Jeder Eintrag hat einen Buchstabencode, z.B. `276fde136c067c5c622ec03ea1b0b..`
-* Mit `git checkout CODE_EINSETZEN` kannst Du zu früheren Revisionen springen.
-* Mit `git checkout master` kommst Du wieder in die Gegenwart.
+* Jeder Eintrag hat einen Buchstabencode (hash), z.B. `276fde136c067c5c622ec03ea1b0b..`
+* Mit `git reset HASH` kannst Du zu einer früheren Version springen.
+* Mit `git reset main` kommst Du wieder in die Gegenwart.
 
 
-### 7. Kollaboration
+### Aufgabe 9: Kollaboration
 
-Entwickelt Euer Projekt im Zweierteam weiter.
+Entwickle dein Projekt im Zweierteam weiter.
 
-* Füge auf der Webseite einen zweiten Autor (*Collaborator*) hinzu.
-* Mit `git clone URL` kann dieser sich eine Kopie des Projekts besorgen.
-* Wenn Ihr Dateien ändert, müßt Ihr die Änderungen jedes Mal mit `git add` und `git commit` einchecken.
-* Mit `git pull` könnt Ihr beide die aktuellste Version des Codes anfordern.
-* Verwende stets `git pull` unmittelbar vor `git pull`.
-* Mit `git push` könnt Ihr beide die Änderungen veröffentlichen.
-* Falls Ihr beide die gleiche Stelle in der gleichen Datei ändert, meldet `git` einen Konflikt. Diesen müßt Ihr von Hand auflösen, bevor Ihr `git add/commit` verwendet.
+* Füge auf der Webseite unter **Settings -> Collaborators** eine zweite Autorin hinzu
+* Mit `git clone` kann diese sich eine Kopie des Projekts besorgen wie oben beschrieben
+* Wenn ihr Dateien ändert, müßt ihr die Änderungen jedes Mal mit `git add` und `git commit` einchecken.
+* Mit `git push` könnt ihr eure Änderungen hochladen
+* Mit `git pull` könnt ihr die aktuellste öffentiche Version des Codes anfordern
 
-## Welche Versionskontrollsysteme gibt es?
+Fügt abwechselnd neue Dateien zum Repository hinzu.
 
-Heute sind vor allem drei Systeme zur Versionskontrolle üblich:
+### Aufgabe 10: Konflikte
 
-* [git](https://git-scm.com/) – Das mit Abstand beste und am weitesten verbreite dezentrale System. Wurde von Linus Torvalds entwickelt. Praktisch alle großen Open-Source-Projekte laufen unter `git`.
-* [Mercurial (hg)](http://hginit.com/) – Weniger komplexes und einfacher zu lernendes dezentrales System.
-* [Subversion (SVN)](https://subversion.apache.org) – Ein sehr gutes, zentralisiertes System. Wird vor allem in Softwarefirmen verwendet.
+Wenn ihr beide die gleiche Stelle in der gleichen Datei ändert, meldet `git pull` einen Konflikt.
+Diesen müßt Ihr von Hand auflösen.
+Editiert dazu die von `git status` als *merge conflict* angezeigte Datei.
 
-Für kleinere Projekte (Doktorarbeiten und kleiner) sind alle drei Systeme bestens geeignet. `git` ist aber das am meisten genutzte.
+In der Datei befinden sich Markierungen, die anzeigen, was von wem geschrieben wurde.
+Entscheidet welche Teile ihr behalten möchtet und löscht die Markierungen.
 
+Gebt anschließend wieder `git add` und `git commit` ein.
+
+Wenn sich alle Änderungen mit `git push` hochladen lassen und das Programm noch funktioniert, habt ihr es richtig gemacht.
 
 ## Links
 
