@@ -6,16 +6,17 @@ Dies ist ein kurzes Tutorial in die Versionskontrolle mit [Git](https://git-scm.
 
 Lies die Geschichte:
 
-    - Ada schreibt das Programm `hello.py`.
-    - Etwas später ändert sie das Programm und speichert die Änderungen in der Datei `hello2.py`.
-    - Sie schickt die Datei als e-Mail an Bon, der den Code ebenfalls ändert. Er schickt die Datei `hello_new_version.py` zurück an Ada.
-    - In der Zwischenzeit hat Ada ihre Version des Programms verbessert und als `hello3.py` gespeichert.
-    - Sie geht ihren Code Zeile für Zeile durch, um Bobs Änderungen einzubauen und erhält die Datei `hello3_with_bob.py`.
-    - Später findet Bob heraus, dass die ursprüngliche Datei `hello2.py` einen Fehler enthielt.
-    - Ada und Bob setzen sich zusammen und versuchen herauszufinden, was sie reparieren müssen.
+*Ada schreibt das Programm `hello.py`.*
+*Etwas später ändert sie das Programm und speichert die Änderungen in der Datei `hello2.py`.*
+*Sie schickt die Datei als e-Mail an Bon, der den Code ebenfalls ändert. Er schickt die Datei `hello_new_version.py` zurück an Ada.*
+*In der Zwischenzeit hat Ada ihre Version des Programms verbessert und als `hello3.py` gespeichert.*
+*Sie geht ihren Code Zeile für Zeile durch, um Bobs Änderungen einzubauen und erhält die Datei `hello3_with_bob.py`.*
+*Später findet Bob heraus, dass die ursprüngliche Datei `hello2.py` einen Fehler enthielt.*
+*Ada und Bob setzen sich zusammen und versuchen herauszufinden, was sie reparieren müssen.*
 
 **Was für Schwierigkeiten könnten Ada und Bob mit ihrer Vorgehensweise bekommen?**
 
+siehe auch [PhD Comic 1531](https://phdcomics.com/comics/archive_print.php?comicid=1531)
 
 ## Was ist Versionskontrolle?
 
@@ -92,16 +93,12 @@ Es sollte ein neues Verzeichnis mit dem Namen deines Projekts entstehen.
 * Speichere die Änderungen mit `git commit -m "hello world Programm geschrieben"` in das lokale Repository
 * Gib `git status` ein
 
-#### Achtung:
-
-Falls du bei `git commit` das `-m` vergisst und in einem komischen Editor landest, kannst Du diesen mit `ESCAPE` und `:q!` wieder verlassen.
-
 ### Aufgabe 5: Änderungen veröffentlichen
 
 Nun kannst du alle Änderungen auf GitHub mit `git push` veröffentlichen.
 
 Beim ersten Mal wünscht sich `git`, dass du Name und E-Mail konfigurierst.
-Gib die angezeigten `git config ..`-Befehle ein oder folge den [Anweisungen direkt unter der Installationsanleitung](https://www.python4data.science/de/latest/productive/git/install-config.html).
+Gib die angezeigten `git config ..`-Befehle ein oder folge den [Anweisungen im Abschnitt 'Konfiguration'](https://www.python4data.science/de/latest/productive/git/install-config.html).
 Versuche `git push` dann erneut.
 
 Aktualisiere die Webseite des Projekts im Browser.
@@ -117,7 +114,7 @@ Hier weist Du `git` an, diese zu ignorieren.
 * Suche Dir auf [https://github.com/github/gitignore](https://github.com/github/gitignore) eine passende Datei für Deine Programmiersprache.
 * Speichere den Inhalt im Projektverzeichnis in einer Datei namens `.gitignore`.
 * Füge die Änderungen mit `git add` und `git commit` wie oben hinzu.
-* In die Datei `.gitignore` kannst Du auch von Hand Namen Dateien und Verzeichnissen eintraegen (ein Dateiname pro Zeile).
+* In die Datei `.gitignore` kannst Du auch von Hand Namen Dateien und Verzeichnissen eintragen (ein Dateiname pro Zeile).
 
 Nun sollte `git status` nichts mehr anzeigen.
 
@@ -144,7 +141,7 @@ Entwickle dein Projekt im Zweierteam weiter.
 * Mit `git clone` kann diese sich eine Kopie des Projekts besorgen wie oben beschrieben
 * Wenn ihr Dateien ändert, müßt ihr die Änderungen jedes Mal mit `git add` und `git commit` einchecken.
 * Mit `git push` könnt ihr eure Änderungen hochladen
-* Mit `git pull` könnt ihr die aktuellste öffentiche Version des Codes anfordern
+* Mit `git pull` könnt ihr die aktuellste öffentliche Version des Codes anfordern
 
 Fügt abwechselnd neue Dateien zum Repository hinzu.
 
@@ -161,9 +158,60 @@ Gebt anschließend wieder `git add` und `git commit` ein.
 
 Wenn sich alle Änderungen mit `git push` hochladen lassen und das Programm noch funktioniert, habt ihr es richtig gemacht.
 
+## Typische Probleme
+
+#### git status funktioniert nicht!
+
+Vermutlich ist dein Terminal gar nicht in einem Verzeichnis unter Versionskontrolle.
+Wenn du gerade `git clone` ausgeführt hast, musst du danach unbedingt `cd meinprojektname/` eingeben, um im Projektverzeichnis zu landen.
+
+#### git push funktioniert nicht!
+
+Gib erst einmal ``git status`` ein und lies die Ausgabe aufmerksam.
+Häufige Ursachen sind:
+
+- du hast überhaupt noch nichts committet
+- auf GitHub befinden sich andere Commits als bei dir. Führe zunächst `git pull` aus
+
+#### git pull funktioniert nicht!
+
+Gib erst einmal ``git status`` ein und lies die Ausgabe aufmerksam.
+Häufige Ursachen sind:
+
+- du hast noch nicht alle Änderungen committet. Führe ganz in Ruhe `git add` und `git commit` aus.
+- es besteht ein merge Konflikt, den du auflösen musst
+- es gibt gar keine neuen Änderungen
+
+#### Ich stecke in einem seltsamen Editor fest!
+
+Falls du bei `git commit` das `-m` und den Logbucheintrag vergisst und in einem komischen Editor landest, kannst Du diesen mit `ESCAPE` und `:q!` wieder verlassen.
+
+#### Ich glaube ich habe meine Arbeitskopie kaputt gemacht. Was jetzt?
+
+Das ist nicht schlimm. Git soll ja gerade verhindern, dass etwas verloren geht.
+Eine sichere Rettungsstrategie ist:
+
+- erstelle eine Sicherheitskopie der gesamten Arbeitskopie
+- gehe in ein anderes Verzeichnis, z.B. Desktop/
+- erstelle eine neue Arbeitskopie mit `git clone`
+- kopiere alles was du brauchst aus der Sicherheitskopie in die neue Arbeitskopie
+
+#### Mein Problem ist hier nicht aufgeführt!
+
+Schaue auf [First Aid Git](https://firstaidgit.io) nach.
+
+## Wiederholungsfragen
+
+- Warum ist es besser, Git anstelle von GoogleDrive zu verwenden?
+- Was für Vorteile hat Git in einem ein-Personen-Projekt?
+- Was für Dateien sollten nicht in einem Git-Repositorium sein?
+- Wie kannst du herausfinden, ob das aktuelle Verzeichnis zu einem Repository gehört?
+
 ## Links
 
+* [Git Tutorial in Python4DataScience](https://www.python4data.science/de/latest/productive/git/index.html)
 * [Git Dokumentation](https://book.git-scm.com/doc)
 * [Try GitHub - online-Tutorial](https://try.github.io/)
-* [GitHub - öffentliches Repository](https://github.com/)
 * [Learn Git auf Codecademy](https://www.codecademy.com/learn/learn-git)
+* [Introduction to Git and GitHub](https://realpython.com/python-git-github-intro/) von Jim Anderson
+* [Adding SSH keys to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
